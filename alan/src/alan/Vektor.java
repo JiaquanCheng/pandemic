@@ -11,6 +11,22 @@ public class Vektor {
 	this.y = 0;
 	this.z = 0;
 	}
+	public Vektor(int x) {
+		this.x = 0;
+		this.y = 0;
+		this.z = 0;
+		}
+	public Vektor(int x, int y) {
+		this.x = 0;
+		this.y = 0;
+		this.z = 0;
+		}
+	public Vektor(int x, int y, int z) {
+		this.x = 0;
+		this.y = 0;
+		this.z = 0;
+		}
+	
 	public Vektor add(Vektor a) {
 		Vektor ret = new Vektor();
 		ret.x = a.x + this.x;
@@ -18,5 +34,8 @@ public class Vektor {
 		ret.z = a.z + this.z;
 
 		return ret;
+	}
+	public String toString() {
+		return "x = " +this.x +" and y = "+ this.y + " and z = " + this.z;
 	}
 }

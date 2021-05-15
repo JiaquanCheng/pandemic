@@ -12,9 +12,9 @@ public class andrew {
 		v2.y = 5;
 		v2.z = 6;
 		Vektor v3 = v.add(v2);
-		System.out.println(v3.x);
-		System.out.println(v3.y);
-		System.out.println(v3.z);
+		
+		
+		System.out.println(v3);
 	}
 
 }
